@@ -29,7 +29,8 @@ requirements:
 test:
   commands:
     - test -f $PREFIX/bin/hipcc
-    - ${PREFIX}/bin/hipcc --help
+    #- ${PREFIX}/bin/hipcc --help
+    - ${PREFIX}/bin/hipconfig -v
 
 about:
   home: https://github.com/ROCm/HIPCC
